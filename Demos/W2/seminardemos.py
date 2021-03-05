@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Pogram that displays a menu and allows the user to either see a nice message, calculate areas of rectangle or triangle or display a times table for a number.
 
 print("Please choose and option from the menu:\n\n1-Nice message\n2-Area of a rectangle\n3-Area of a triange\n4-Times table")
@@ -28,18 +27,3 @@ elif option == 4:
       print("{}x{}={}".format(n,i,n*i))
 else:
   print("There is no such option. Go to specsavers!")
-=======
-#While loop (and also FOR loop) cand be used to have a repetition of a procedure in our code
-
-print("How many times to print the symbol?")
-x = int(input()) #x=3
-
-#i is a conter - it keeps track of how many times we went through the loop
-i = 0
-
-while i < x: #condition for repeating the code - as long as i lower than x
-  print("\u27BD" , i)
-  i = i + 1 #new value of the counter is more than it used to be
-
-print("We left the loop")
->>>>>>> c8ed661a9abae99498b5fdda633ed9428e3841c6
